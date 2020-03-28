@@ -1,0 +1,101 @@
+fileFormatVersion: 2
+guid: 2bfaee696273b764290872b2a9120864
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: _MapPrfab/escenario1casa1piso1
+    100002: _MapPrfab/escenario1casa1piso1/accesos
+    100004: _MapPrfab/escenario1casa1piso1/adornos
+    100006: _MapPrfab/escenario1casa1piso1/cama
+    100008: _MapPrfab/escenario1casa1piso1/colisiones
+    100010: _MapPrfab/escenario1casa1piso1/colisiones/Object_2
+    100012: _MapPrfab/escenario1casa1piso1/colisiones/Object_4
+    100014: _MapPrfab/escenario1casa1piso1/colisiones/Object_5
+    100016: _MapPrfab/escenario1casa1piso1/colisiones/Object_5/ConvexPolygon
+    100018: _MapPrfab/escenario1casa1piso1/colisiones/Object_5/ConvexPolygon (1)
+    100020: _MapPrfab/escenario1casa1piso1/colisiones/Object_5/ConvexPolygon (2)
+    100022: _MapPrfab/escenario1casa1piso1/colisiones/Object_5/ConvexPolygon (3)
+    100024: _MapPrfab/escenario1casa1piso1/muebles
+    100026: _MapPrfab/escenario1casa1piso1/pared
+    100028: _MapPrfab/escenario1casa1piso1/suelo
+    400000: _MapPrfab/escenario1casa1piso1/Transform
+    400002: _MapPrfab/escenario1casa1piso1/accesos/Transform
+    400004: _MapPrfab/escenario1casa1piso1/adornos/Transform
+    400006: _MapPrfab/escenario1casa1piso1/cama/Transform
+    400008: _MapPrfab/escenario1casa1piso1/colisiones/Transform
+    400010: _MapPrfab/escenario1casa1piso1/colisiones/Object_2/Transform
+    400012: _MapPrfab/escenario1casa1piso1/colisiones/Object_4/Transform
+    400014: _MapPrfab/escenario1casa1piso1/colisiones/Object_5/Transform
+    400016: _MapPrfab/escenario1casa1piso1/colisiones/Object_5/ConvexPolygon/Transform
+    400018: _MapPrfab/escenario1casa1piso1/colisiones/Object_5/ConvexPolygon (1)/Transform
+    400020: _MapPrfab/escenario1casa1piso1/colisiones/Object_5/ConvexPolygon (2)/Transform
+    400022: _MapPrfab/escenario1casa1piso1/colisiones/Object_5/ConvexPolygon (3)/Transform
+    400024: _MapPrfab/escenario1casa1piso1/muebles/Transform
+    400026: _MapPrfab/escenario1casa1piso1/pared/Transform
+    400028: _MapPrfab/escenario1casa1piso1/suelo/Transform
+    5000000: _MapPrfab/escenario1casa1piso1/colisiones/Object_5/Rigidbody2D
+    6000000: _MapPrfab/escenario1casa1piso1/colisiones/Object_2/PolygonCollider2D
+    6000002: _MapPrfab/escenario1casa1piso1/colisiones/Object_4/PolygonCollider2D
+    6000004: _MapPrfab/escenario1casa1piso1/colisiones/Object_5/ConvexPolygon/PolygonCollider2D
+    6000006: _MapPrfab/escenario1casa1piso1/colisiones/Object_5/ConvexPolygon (1)/PolygonCollider2D
+    6000008: _MapPrfab/escenario1casa1piso1/colisiones/Object_5/ConvexPolygon (2)/PolygonCollider2D
+    6000010: _MapPrfab/escenario1casa1piso1/colisiones/Object_5/ConvexPolygon (3)/PolygonCollider2D
+    6600000: _MapPrfab/escenario1casa1piso1/colisiones/Object_5/CompositeCollider2D
+    11400000: _MapPrfab/escenario1casa1piso1/MonoBehaviour-SuperTiled2Unity.SuperMap
+    11400002: _MapPrfab/escenario1casa1piso1/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400004: _MapPrfab/escenario1casa1piso1/accesos/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400006: _MapPrfab/escenario1casa1piso1/accesos/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400008: _MapPrfab/escenario1casa1piso1/adornos/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400010: _MapPrfab/escenario1casa1piso1/adornos/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400012: _MapPrfab/escenario1casa1piso1/cama/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400014: _MapPrfab/escenario1casa1piso1/cama/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400016: _MapPrfab/escenario1casa1piso1/colisiones/MonoBehaviour-SuperTiled2Unity.SuperObjectLayer
+    11400018: _MapPrfab/escenario1casa1piso1/colisiones/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400020: _MapPrfab/escenario1casa1piso1/colisiones/Object_2/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400022: _MapPrfab/escenario1casa1piso1/colisiones/Object_2/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400024: _MapPrfab/escenario1casa1piso1/colisiones/Object_2/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400026: _MapPrfab/escenario1casa1piso1/colisiones/Object_4/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400028: _MapPrfab/escenario1casa1piso1/colisiones/Object_4/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400030: _MapPrfab/escenario1casa1piso1/colisiones/Object_4/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400032: _MapPrfab/escenario1casa1piso1/colisiones/Object_5/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400034: _MapPrfab/escenario1casa1piso1/colisiones/Object_5/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400036: _MapPrfab/escenario1casa1piso1/colisiones/Object_5/ConvexPolygon/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400038: _MapPrfab/escenario1casa1piso1/colisiones/Object_5/ConvexPolygon (1)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400040: _MapPrfab/escenario1casa1piso1/colisiones/Object_5/ConvexPolygon (2)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400042: _MapPrfab/escenario1casa1piso1/colisiones/Object_5/ConvexPolygon (3)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400044: _MapPrfab/escenario1casa1piso1/muebles/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400046: _MapPrfab/escenario1casa1piso1/muebles/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400048: _MapPrfab/escenario1casa1piso1/pared/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400050: _MapPrfab/escenario1casa1piso1/pared/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400052: _MapPrfab/escenario1casa1piso1/suelo/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400054: _MapPrfab/escenario1casa1piso1/suelo/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400056: _superAsset
+    100100000: _MapPrfab
+    2569400265252428796: _MapPrfab/escenario1casa1piso1/Grid
+    3664157343022684176: _MapPrfab/escenario1casa1piso1/accesos/TilemapRenderer
+    3664157343022684178: _MapPrfab/escenario1casa1piso1/adornos/TilemapRenderer
+    3664157343022684180: _MapPrfab/escenario1casa1piso1/cama/TilemapRenderer
+    3664157343022684182: _MapPrfab/escenario1casa1piso1/muebles/TilemapRenderer
+    3664157343022684184: _MapPrfab/escenario1casa1piso1/pared/TilemapRenderer
+    3664157343022684186: _MapPrfab/escenario1casa1piso1/suelo/TilemapRenderer
+    8195094279510102542: _MapPrfab/escenario1casa1piso1/accesos/Tilemap
+    8195094279510102544: _MapPrfab/escenario1casa1piso1/adornos/Tilemap
+    8195094279510102546: _MapPrfab/escenario1casa1piso1/cama/Tilemap
+    8195094279510102548: _MapPrfab/escenario1casa1piso1/muebles/Tilemap
+    8195094279510102550: _MapPrfab/escenario1casa1piso1/pared/Tilemap
+    8195094279510102552: _MapPrfab/escenario1casa1piso1/suelo/Tilemap
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
+  errors: []
+  warnings: []
+  missingSortingLayers: []
+  missingLayers: []
+  pixelsPerUnit: 100
+  edgesPerEllipse: 32
+  animationFramerate: 1
+  tilesAsObjects: 0
+  isIsometric: 0
+  customImporterClassName: 
+  internalTilesets: []
