@@ -10,3 +10,8 @@ Cree la interfaz de forma basica para el menu,ademas de programar un Script para
 *25/03/2020*
 
 Cree el terreno de la escena 1, ademas del personaje principal y realice un script  para controlar sus movimientos y las animaciones de quedarse quieto y caminar.Por ultimo desarrolle las colisiones entre el personaje y las diferentes partes del terreno.
+
+## Proyecto subido 3
+*28/03/2020*
+
+Cree el terreno de las distintas casas del pueblo con sus colisiones.Además cree una forma para telenstransportarse entre los distintos terrenos.
