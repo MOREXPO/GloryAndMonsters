@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: 3557a1cf10d84c6488cbb6c8e360b622
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: _MapPrfab/escenario1
+    100002: _MapPrfab/escenario1/adornos
+    100004: _MapPrfab/escenario1/caminos
+    100006: _MapPrfab/escenario1/casas
+    100008: _MapPrfab/escenario1/colisiones
+    100010: _MapPrfab/escenario1/colisiones/Object_32
+    100012: _MapPrfab/escenario1/colisiones/Object_32/ConvexPolygon
+    100014: _MapPrfab/escenario1/colisiones/Object_32/ConvexPolygon (1)
+    100016: _MapPrfab/escenario1/colisiones/Object_32/ConvexPolygon (2)
+    100018: _MapPrfab/escenario1/colisiones/Object_32/ConvexPolygon (3)
+    100020: _MapPrfab/escenario1/colisiones/Object_32/ConvexPolygon (4)
+    100022: _MapPrfab/escenario1/colisiones/Object_32/ConvexPolygon (5)
+    100024: _MapPrfab/escenario1/colisiones/Object_32/ConvexPolygon (6)
+    100026: _MapPrfab/escenario1/colisiones/Object_32/ConvexPolygon (7)
+    100028: _MapPrfab/escenario1/colisiones/Object_33
+    100030: _MapPrfab/escenario1/colisiones/Object_35
+    100032: _MapPrfab/escenario1/colisiones/Object_36
+    100034: _MapPrfab/escenario1/colisiones/Object_37
+    100036: _MapPrfab/escenario1/colisiones/Object_38
+    100038: _MapPrfab/escenario1/colisiones/Object_38/ConvexPolygon
+    100040: _MapPrfab/escenario1/colisiones/Object_38/ConvexPolygon (1)
+    100042: _MapPrfab/escenario1/colisiones/Object_38/ConvexPolygon (2)
+    100044: _MapPrfab/escenario1/colisiones/Object_38/ConvexPolygon (3)
+    100046: _MapPrfab/escenario1/colisiones/Object_38/ConvexPolygon (4)
+    100048: _MapPrfab/escenario1/colisiones/Object_38/ConvexPolygon (5)
+    100050: _MapPrfab/escenario1/colisiones/Object_39
+    100052: _MapPrfab/escenario1/colisiones/Object_39/ConvexPolygon
+    100054: _MapPrfab/escenario1/colisiones/Object_39/ConvexPolygon (1)
+    100056: _MapPrfab/escenario1/colisiones/Object_39/ConvexPolygon (2)
+    100058: _MapPrfab/escenario1/colisiones/Object_39/ConvexPolygon (3)
+    100060: _MapPrfab/escenario1/colisiones/Object_39/ConvexPolygon (4)
+    100062: _MapPrfab/escenario1/colisiones/Object_39/ConvexPolygon (5)
+    100064: _MapPrfab/escenario1/colisiones/Object_39/ConvexPolygon (6)
+    100066: _MapPrfab/escenario1/colisiones/Object_40
+    100068: _MapPrfab/escenario1/colisiones/Object_40/ConvexPolygon
+    100070: _MapPrfab/escenario1/colisiones/Object_40/ConvexPolygon (1)
+    100072: _MapPrfab/escenario1/colisiones/Object_40/ConvexPolygon (2)
+    100074: _MapPrfab/escenario1/colisiones/Object_42
+    100076: _MapPrfab/escenario1/colisiones/Object_42/ConvexPolygon
+    100078: _MapPrfab/escenario1/colisiones/Object_42/ConvexPolygon (1)
+    100080: _MapPrfab/escenario1/colisiones/Object_42/ConvexPolygon (2)
+    100082: _MapPrfab/escenario1/suelo
+    400000: _MapPrfab/escenario1/Transform
+    400002: _MapPrfab/escenario1/adornos/Transform
+    400004: _MapPrfab/escenario1/caminos/Transform
+    400006: _MapPrfab/escenario1/casas/Transform
+    400008: _MapPrfab/escenario1/colisiones/Transform
+    400010: _MapPrfab/escenario1/colisiones/Object_32/Transform
+    400012: _MapPrfab/escenario1/colisiones/Object_32/ConvexPolygon/Transform
+    400014: _MapPrfab/escenario1/colisiones/Object_32/ConvexPolygon (1)/Transform
+    400016: _MapPrfab/escenario1/colisiones/Object_32/ConvexPolygon (2)/Transform
+    400018: _MapPrfab/escenario1/colisiones/Object_32/ConvexPolygon (3)/Transform
+    400020: _MapPrfab/escenario1/colisiones/Object_32/ConvexPolygon (4)/Transform
+    400022: _MapPrfab/escenario1/colisiones/Object_32/ConvexPolygon (5)/Transform
+    400024: _MapPrfab/escenario1/colisiones/Object_32/ConvexPolygon (6)/Transform
+    400026: _MapPrfab/escenario1/colisiones/Object_32/ConvexPolygon (7)/Transform
+    400028: _MapPrfab/escenario1/colisiones/Object_33/Transform
+    400030: _MapPrfab/escenario1/colisiones/Object_35/Transform
+    400032: _MapPrfab/escenario1/colisiones/Object_36/Transform
+    400034: _MapPrfab/escenario1/colisiones/Object_37/Transform
+    400036: _MapPrfab/escenario1/colisiones/Object_38/Transform
+    400038: _MapPrfab/escenario1/colisiones/Object_38/ConvexPolygon/Transform
+    400040: _MapPrfab/escenario1/colisiones/Object_38/ConvexPolygon (1)/Transform
+    400042: _MapPrfab/escenario1/colisiones/Object_38/ConvexPolygon (2)/Transform
+    400044: _MapPrfab/escenario1/colisiones/Object_38/ConvexPolygon (3)/Transform
+    400046: _MapPrfab/escenario1/colisiones/Object_38/ConvexPolygon (4)/Transform
+    400048: _MapPrfab/escenario1/colisiones/Object_38/ConvexPolygon (5)/Transform
+    400050: _MapPrfab/escenario1/colisiones/Object_39/Transform
+    400052: _MapPrfab/escenario1/colisiones/Object_39/ConvexPolygon/Transform
+    400054: _MapPrfab/escenario1/colisiones/Object_39/ConvexPolygon (1)/Transform
+    400056: _MapPrfab/escenario1/colisiones/Object_39/ConvexPolygon (2)/Transform
+    400058: _MapPrfab/escenario1/colisiones/Object_39/ConvexPolygon (3)/Transform
+    400060: _MapPrfab/escenario1/colisiones/Object_39/ConvexPolygon (4)/Transform
+    400062: _MapPrfab/escenario1/colisiones/Object_39/ConvexPolygon (5)/Transform
+    400064: _MapPrfab/escenario1/colisiones/Object_39/ConvexPolygon (6)/Transform
+    400066: _MapPrfab/escenario1/colisiones/Object_40/Transform
+    400068: _MapPrfab/escenario1/colisiones/Object_40/ConvexPolygon/Transform
+    400070: _MapPrfab/escenario1/colisiones/Object_40/ConvexPolygon (1)/Transform
+    400072: _MapPrfab/escenario1/colisiones/Object_40/ConvexPolygon (2)/Transform
+    400074: _MapPrfab/escenario1/colisiones/Object_42/Transform
+    400076: _MapPrfab/escenario1/colisiones/Object_42/ConvexPolygon/Transform
+    400078: _MapPrfab/escenario1/colisiones/Object_42/ConvexPolygon (1)/Transform
+    400080: _MapPrfab/escenario1/colisiones/Object_42/ConvexPolygon (2)/Transform
+    400082: _MapPrfab/escenario1/suelo/Transform
+    5000000: _MapPrfab/escenario1/colisiones/Object_32/Rigidbody2D
+    5000002: _MapPrfab/escenario1/colisiones/Object_38/Rigidbody2D
+    5000004: _MapPrfab/escenario1/colisiones/Object_39/Rigidbody2D
+    5000006: _MapPrfab/escenario1/colisiones/Object_40/Rigidbody2D
+    5000008: _MapPrfab/escenario1/colisiones/Object_42/Rigidbody2D
+    6000000: _MapPrfab/escenario1/colisiones/Object_32/ConvexPolygon/PolygonCollider2D
+    6000002: _MapPrfab/escenario1/colisiones/Object_32/ConvexPolygon (1)/PolygonCollider2D
+    6000004: _MapPrfab/escenario1/colisiones/Object_32/ConvexPolygon (2)/PolygonCollider2D
+    6000006: _MapPrfab/escenario1/colisiones/Object_32/ConvexPolygon (3)/PolygonCollider2D
+    6000008: _MapPrfab/escenario1/colisiones/Object_32/ConvexPolygon (4)/PolygonCollider2D
+    6000010: _MapPrfab/escenario1/colisiones/Object_32/ConvexPolygon (5)/PolygonCollider2D
+    6000012: _MapPrfab/escenario1/colisiones/Object_32/ConvexPolygon (6)/PolygonCollider2D
+    6000014: _MapPrfab/escenario1/colisiones/Object_32/ConvexPolygon (7)/PolygonCollider2D
+    6000016: _MapPrfab/escenario1/colisiones/Object_33/PolygonCollider2D
+    6000018: _MapPrfab/escenario1/colisiones/Object_35/PolygonCollider2D
+    6000020: _MapPrfab/escenario1/colisiones/Object_36/PolygonCollider2D
+    6000022: _MapPrfab/escenario1/colisiones/Object_37/PolygonCollider2D
+    6000024: _MapPrfab/escenario1/colisiones/Object_38/ConvexPolygon/PolygonCollider2D
+    6000026: _MapPrfab/escenario1/colisiones/Object_38/ConvexPolygon (1)/PolygonCollider2D
+    6000028: _MapPrfab/escenario1/colisiones/Object_38/ConvexPolygon (2)/PolygonCollider2D
+    6000030: _MapPrfab/escenario1/colisiones/Object_38/ConvexPolygon (3)/PolygonCollider2D
+    6000032: _MapPrfab/escenario1/colisiones/Object_38/ConvexPolygon (4)/PolygonCollider2D
+    6000034: _MapPrfab/escenario1/colisiones/Object_38/ConvexPolygon (5)/PolygonCollider2D
+    6000036: _MapPrfab/escenario1/colisiones/Object_39/ConvexPolygon/PolygonCollider2D
+    6000038: _MapPrfab/escenario1/colisiones/Object_39/ConvexPolygon (1)/PolygonCollider2D
+    6000040: _MapPrfab/escenario1/colisiones/Object_39/ConvexPolygon (2)/PolygonCollider2D
+    6000042: _MapPrfab/escenario1/colisiones/Object_39/ConvexPolygon (3)/PolygonCollider2D
+    6000044: _MapPrfab/escenario1/colisiones/Object_39/ConvexPolygon (4)/PolygonCollider2D
+    6000046: _MapPrfab/escenario1/colisiones/Object_39/ConvexPolygon (5)/PolygonCollider2D
+    6000048: _MapPrfab/escenario1/colisiones/Object_39/ConvexPolygon (6)/PolygonCollider2D
+    6000050: _MapPrfab/escenario1/colisiones/Object_40/ConvexPolygon/PolygonCollider2D
+    6000052: _MapPrfab/escenario1/colisiones/Object_40/ConvexPolygon (1)/PolygonCollider2D
+    6000054: _MapPrfab/escenario1/colisiones/Object_40/ConvexPolygon (2)/PolygonCollider2D
+    6000056: _MapPrfab/escenario1/colisiones/Object_42/ConvexPolygon/PolygonCollider2D
+    6000058: _MapPrfab/escenario1/colisiones/Object_42/ConvexPolygon (1)/PolygonCollider2D
+    6000060: _MapPrfab/escenario1/colisiones/Object_42/ConvexPolygon (2)/PolygonCollider2D
+    6600000: _MapPrfab/escenario1/colisiones/Object_32/CompositeCollider2D
+    6600002: _MapPrfab/escenario1/colisiones/Object_38/CompositeCollider2D
+    6600004: _MapPrfab/escenario1/colisiones/Object_39/CompositeCollider2D
+    6600006: _MapPrfab/escenario1/colisiones/Object_40/CompositeCollider2D
+    6600008: _MapPrfab/escenario1/colisiones/Object_42/CompositeCollider2D
+    11400000: _MapPrfab/escenario1/MonoBehaviour-SuperTiled2Unity.SuperMap
+    11400002: _MapPrfab/escenario1/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400004: _MapPrfab/escenario1/adornos/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400006: _MapPrfab/escenario1/adornos/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400008: _MapPrfab/escenario1/caminos/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400010: _MapPrfab/escenario1/caminos/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400012: _MapPrfab/escenario1/casas/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400014: _MapPrfab/escenario1/casas/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400016: _MapPrfab/escenario1/colisiones/MonoBehaviour-SuperTiled2Unity.SuperObjectLayer
+    11400018: _MapPrfab/escenario1/colisiones/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400020: _MapPrfab/escenario1/colisiones/Object_32/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400022: _MapPrfab/escenario1/colisiones/Object_32/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400024: _MapPrfab/escenario1/colisiones/Object_32/ConvexPolygon/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400026: _MapPrfab/escenario1/colisiones/Object_32/ConvexPolygon (1)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400028: _MapPrfab/escenario1/colisiones/Object_32/ConvexPolygon (2)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400030: _MapPrfab/escenario1/colisiones/Object_32/ConvexPolygon (3)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400032: _MapPrfab/escenario1/colisiones/Object_32/ConvexPolygon (4)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400034: _MapPrfab/escenario1/colisiones/Object_32/ConvexPolygon (5)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400036: _MapPrfab/escenario1/colisiones/Object_32/ConvexPolygon (6)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400038: _MapPrfab/escenario1/colisiones/Object_32/ConvexPolygon (7)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400040: _MapPrfab/escenario1/colisiones/Object_33/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400042: _MapPrfab/escenario1/colisiones/Object_33/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400044: _MapPrfab/escenario1/colisiones/Object_33/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400046: _MapPrfab/escenario1/colisiones/Object_35/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400048: _MapPrfab/escenario1/colisiones/Object_35/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400050: _MapPrfab/escenario1/colisiones/Object_35/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400052: _MapPrfab/escenario1/colisiones/Object_36/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400054: _MapPrfab/escenario1/colisiones/Object_36/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400056: _MapPrfab/escenario1/colisiones/Object_36/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400058: _MapPrfab/escenario1/colisiones/Object_37/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400060: _MapPrfab/escenario1/colisiones/Object_37/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400062: _MapPrfab/escenario1/colisiones/Object_37/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400064: _MapPrfab/escenario1/colisiones/Object_38/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400066: _MapPrfab/escenario1/colisiones/Object_38/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400068: _MapPrfab/escenario1/colisiones/Object_38/ConvexPolygon/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400070: _MapPrfab/escenario1/colisiones/Object_38/ConvexPolygon (1)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400072: _MapPrfab/escenario1/colisiones/Object_38/ConvexPolygon (2)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400074: _MapPrfab/escenario1/colisiones/Object_38/ConvexPolygon (3)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400076: _MapPrfab/escenario1/colisiones/Object_38/ConvexPolygon (4)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400078: _MapPrfab/escenario1/colisiones/Object_38/ConvexPolygon (5)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400080: _MapPrfab/escenario1/colisiones/Object_39/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400082: _MapPrfab/escenario1/colisiones/Object_39/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400084: _MapPrfab/escenario1/colisiones/Object_39/ConvexPolygon/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400086: _MapPrfab/escenario1/colisiones/Object_39/ConvexPolygon (1)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400088: _MapPrfab/escenario1/colisiones/Object_39/ConvexPolygon (2)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400090: _MapPrfab/escenario1/colisiones/Object_39/ConvexPolygon (3)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400092: _MapPrfab/escenario1/colisiones/Object_39/ConvexPolygon (4)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400094: _MapPrfab/escenario1/colisiones/Object_39/ConvexPolygon (5)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400096: _MapPrfab/escenario1/colisiones/Object_39/ConvexPolygon (6)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400098: _MapPrfab/escenario1/colisiones/Object_40/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400100: _MapPrfab/escenario1/colisiones/Object_40/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400102: _MapPrfab/escenario1/colisiones/Object_40/ConvexPolygon/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400104: _MapPrfab/escenario1/colisiones/Object_40/ConvexPolygon (1)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400106: _MapPrfab/escenario1/colisiones/Object_40/ConvexPolygon (2)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400108: _MapPrfab/escenario1/colisiones/Object_42/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400110: _MapPrfab/escenario1/colisiones/Object_42/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400112: _MapPrfab/escenario1/colisiones/Object_42/ConvexPolygon/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400114: _MapPrfab/escenario1/colisiones/Object_42/ConvexPolygon (1)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400116: _MapPrfab/escenario1/colisiones/Object_42/ConvexPolygon (2)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400118: _MapPrfab/escenario1/suelo/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400120: _MapPrfab/escenario1/suelo/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400122: _superAsset
+    100100000: _MapPrfab
+    2569400265252428796: _MapPrfab/escenario1/Grid
+    3664157343022684176: _MapPrfab/escenario1/adornos/TilemapRenderer
+    3664157343022684178: _MapPrfab/escenario1/caminos/TilemapRenderer
+    3664157343022684180: _MapPrfab/escenario1/casas/TilemapRenderer
+    3664157343022684182: _MapPrfab/escenario1/suelo/TilemapRenderer
+    8195094279510102542: _MapPrfab/escenario1/adornos/Tilemap
+    8195094279510102544: _MapPrfab/escenario1/caminos/Tilemap
+    8195094279510102546: _MapPrfab/escenario1/casas/Tilemap
+    8195094279510102548: _MapPrfab/escenario1/suelo/Tilemap
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
+  errors: []
+  warnings: []
+  missingSortingLayers: []
+  missingLayers: []
+  pixelsPerUnit: 16
+  edgesPerEllipse: 32
+  animationFramerate: 1
+  tilesAsObjects: 0
+  isIsometric: 0
+  customImporterClassName: 
+  internalTilesets: []

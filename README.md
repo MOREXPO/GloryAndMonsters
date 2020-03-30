@@ -15,3 +15,8 @@ Cree el terreno de la escena 1, ademas del personaje principal y realice un scri
 *28/03/2020*
 
 Cree el terreno de las distintas casas del pueblo con sus colisiones.Además cree una forma para telenstransportarse entre los distintos terrenos.
+
+## Proyecto subido 4
+*29/03/2020*
+
+Cree un contenedor a la derecha que contiene la barra de vida,la barra de mana, el nivel del personaje y los stats(Vida,Resistencia,Fuerza y magia).
