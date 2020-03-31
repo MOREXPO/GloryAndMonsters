@@ -20,3 +20,13 @@ Cree el terreno de las distintas casas del pueblo con sus colisiones.Además cre
 *29/03/2020*
 
 Cree un contenedor a la derecha que contiene la barra de vida,la barra de mana, el nivel del personaje y los stats(Vida,Resistencia,Fuerza y magia).
+
+## Proyecto subido 5
+*31/03/2020*
+
+Le puse a la camara los limites del mapa para que no lo sobrepase,ademas le añadi transiciones cuando pasas de una escena a otra ,y por ultimo, le meti un efecto de suavidad en el movimiento de la camara. 
+
+## Proyecto subido 6
+*01/04/2020*
+
+Hice para que el personaje pueda atacar con la espada,tambien un script para que un objeto pueda ser destruido y por ultimo un script que mejora el efecto de las profundidades.

@@ -7,7 +7,8 @@ TagManager:
   - Area
   - Pueblo
   - Casa
-  - Habitacion
+  - Cuarto
+  - Attack
   layers:
   - Default
   - TransparentFX

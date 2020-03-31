@@ -66,6 +66,8 @@
     <Compile Include="Assets\Juego\Player.cs" />
     <Compile Include="Assets\Menu\MenuPrincipal.cs" />
     <Compile Include="Assets\Scripts\Area.cs" />
+    <Compile Include="Assets\Scripts\Destroyable.cs" />
+    <Compile Include="Assets\Scripts\FixDepth.cs" />
     <Compile Include="Assets\Scripts\Healthbar.cs" />
     <Compile Include="Assets\Scripts\MainCamera.cs" />
     <Compile Include="Assets\Scripts\Warp.cs" />
