@@ -30,3 +30,4 @@ Le puse a la camara los limites del mapa para que no lo sobrepase,ademas le aña
 *01/04/2020*
 
 Hice para que el personaje pueda atacar con la espada,tambien un script para que un objeto pueda ser destruido y por ultimo un script que mejora el efecto de las profundidades.
+
