@@ -34,4 +34,4 @@ Hice para que el personaje pueda atacar con la espada,tambien un script para que
 ## Proyecto subido 7
 *03/04/2020*
 
-Desarrolle el ataque magico con espada para que pueda atacar a distancia,ademas de todo el sistema de los stats,incluyendo Vida,Fuerza,Resistencia y la Magia la cual esta controlada por el maná,tambien implemente la experiencia la cual obtienes de los enemigos,de momento desarrolle al troncogro, al cual podemos matar y cuales pueden matarnos.Ademas cada vez que subas de nivel ya podrás subir alguno de los Stats.
+Desarrolle el ataque mágico con espada para que pueda atacar a distancia, ademas de todo el sistema de los stats, incluyendo Vida, Fuerza,Resistencia y la Magia la cual esta controlada por el maná, tambien implemente la experiencia la cual obtienes de los enemigos, de momento desarrolle al troncogro, al cual podemos matar y cuales pueden matarnos.Además cada vez que subas de nivel ya podrás subir alguno de los Stats.
