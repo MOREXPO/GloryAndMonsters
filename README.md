@@ -31,3 +31,7 @@ Le puse a la camara los limites del mapa para que no lo sobrepase,ademas le aña
 
 Hice para que el personaje pueda atacar con la espada,tambien un script para que un objeto pueda ser destruido y por ultimo un script que mejora el efecto de las profundidades.
 
+## Proyecto subido 7
+*03/04/2020*
+
+Desarrolle el ataque magico con espada para que pueda atacar a distancia,ademas de todo el sistema de los stats,incluyendo Vida,Fuerza,Resistencia y la Magia la cual esta controlada por el maná,tambien implemente la experiencia la cual obtienes de los enemigos,de momento desarrolle al troncogro, al cual podemos matar y cuales pueden matarnos.Ademas cada vez que subas de nivel ya podrás subir alguno de los Stats.

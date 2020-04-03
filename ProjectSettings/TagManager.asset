@@ -9,6 +9,7 @@ TagManager:
   - Casa
   - Cuarto
   - Attack
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -18,8 +19,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Enemy
+  - Attack
   - 
   - 
   - 
@@ -46,6 +47,48 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: suelo
+    uniqueID: 3227497807
+    locked: 0
+  - name: pared
+    uniqueID: 3073176377
+    locked: 0
+  - name: caminos
+    uniqueID: 1197131543
+    locked: 0
+  - name: accesos
+    uniqueID: 1629980195
+    locked: 0
+  - name: muebles
+    uniqueID: 404892003
+    locked: 0
+  - name: cama
+    uniqueID: 2719048935
+    locked: 0
+  - name: Player
+    uniqueID: 881802117
+    locked: 0
+  - name: adornos
+    uniqueID: 563114865
+    locked: 0
+  - name: casas
+    uniqueID: 27588687
+    locked: 0
+  - name: silla arriba
+    uniqueID: 166635303
+    locked: 0
+  - name: mesa
+    uniqueID: 3909895609
+    locked: 0
+  - name: silla medio
+    uniqueID: 1736365949
+    locked: 0
+  - name: silla abajo
+    uniqueID: 1512680841
+    locked: 0
   - name: Interface
     uniqueID: 464853031
+    locked: 0
+  - name: 
+    uniqueID: 2698640403
     locked: 0

@@ -10,7 +10,7 @@ public class FixDepth : MonoBehaviour
     void Start()
     {
         spr = GetComponent<SpriteRenderer>();
-        spr.sortingLayerName = "Default";
+        spr.sortingLayerName = "Player";
         spr.sortingOrder = Mathf.RoundToInt(-transform.position.y*100);
     }
 

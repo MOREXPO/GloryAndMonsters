@@ -6,15 +6,29 @@ using UnityEngine.UI;
 public class Healthbar : MonoBehaviour
 {
     public Image health;
-    float hp, maxHp = 100f;
+    float hp, maxHp;
+    GameObject area;
+    public GameObject player;
+    public Player playerScript;
     // Start is called before the first frame update
     void Start()
     {
+        maxHp = playerScript.Vida;
         hp = maxHp;
+        area = GameObject.FindGameObjectWithTag("Area");
+    }
+
+    void Update()
+    {
+        maxHp = playerScript.Vida;
+        if (hp<=0) {
+            Destroy(player);
+            StartCoroutine(area.GetComponent<Area>().ShowArea("GAME OVER"));
+        }
+        health.transform.localScale = new Vector2(hp / maxHp, 1);
     }
 
     public void TakeDamage(float amount) {
-        hp = Mathf.Clamp(hp-amount,0f,maxHp);
-        health.transform.localScale = new Vector2(hp/maxHp,1);
+        hp = Mathf.Clamp(hp+playerScript.Resistencia-amount,0f,maxHp);
     }
 }

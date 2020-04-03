@@ -66,10 +66,17 @@
     <Compile Include="Assets\Juego\Player.cs" />
     <Compile Include="Assets\Menu\MenuPrincipal.cs" />
     <Compile Include="Assets\Scripts\Area.cs" />
+    <Compile Include="Assets\Scripts\Attack.cs" />
+    <Compile Include="Assets\Scripts\Aura.cs" />
     <Compile Include="Assets\Scripts\Destroyable.cs" />
+    <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\FixDepth.cs" />
     <Compile Include="Assets\Scripts\Healthbar.cs" />
     <Compile Include="Assets\Scripts\MainCamera.cs" />
+    <Compile Include="Assets\Scripts\Manabar.cs" />
+    <Compile Include="Assets\Scripts\Rock.cs" />
+    <Compile Include="Assets\Scripts\Slash.cs" />
+    <Compile Include="Assets\Scripts\Ui.cs" />
     <Compile Include="Assets\Scripts\Warp.cs" />
     <Compile Include="Assets\SuperTiled2Unity\Examples\Overhead\Sprites\MegaDad\OverheadMegaDadController.cs" />
     <Compile Include="Assets\SuperTiled2Unity\Scripts\CollisionObject.cs" />

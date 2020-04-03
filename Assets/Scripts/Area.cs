@@ -19,5 +19,6 @@ public class Area : MonoBehaviour
         transform.GetChild(1).GetComponent<Text>().text = name;
         yield return new WaitForSeconds(1f);
         anim.Play("Area_FadeOut");
+        if (name == "GAME OVER")Application.Quit();
     }
 }
