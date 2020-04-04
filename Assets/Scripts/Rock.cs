@@ -10,28 +10,28 @@ public class Rock : MonoBehaviour {
     GameObject player;   // Recuperamos al objeto jugador
     Rigidbody2D rb2d;    // Recuperamos el componente de cuerpo rígido
     Vector3 target, dir; // Vectores para almacenar el objetivo y su dirección
-    private GameObject healthbar;
+    private GameObject healthbar;//Recuperamos la barra de vida
 
     void Start () {
         player = GameObject.FindGameObjectWithTag("Player");
         rb2d = GetComponent<Rigidbody2D>();
         healthbar = GameObject.Find("Healthbar");
-        // Recuperamos posición del jugador y la dirección normalizada
+        
         if (player != null){
             target = player.transform.position;
             dir = (target - transform.position).normalized;
         }
 	}
-
+    // Si hay un objetivo movemos la roca hacia su posición
     void FixedUpdate () {
-        // Si hay un objetivo movemos la roca hacia su posición
+        
         if (target != Vector3.zero) {
             rb2d.MovePosition(transform.position + (dir * speed) * Time.deltaTime);
         }
 	}
-
+    // Si chocamos contra el jugador o un ataque la borramos
     void OnTriggerEnter2D(Collider2D col){
-        // Si chocamos contra el jugador o un ataque la borramos
+        
         if (col.transform.tag == "Player" || col.transform.tag == "Attack"){
             Destroy(gameObject);
             if (col.transform.tag == "Player") {
@@ -39,9 +39,9 @@ public class Rock : MonoBehaviour {
             }
         }
     }
-
+    // Si se sale de la pantalla borramos la roca
     void OnBecameInvisible() {
-        // Si se sale de la pantalla borramos la roca
+       
         Destroy(gameObject);
     }
 }

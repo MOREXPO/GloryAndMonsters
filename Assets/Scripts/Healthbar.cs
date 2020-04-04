@@ -10,7 +10,7 @@ public class Healthbar : MonoBehaviour
     GameObject area;
     public GameObject player;
     public Player playerScript;
-    // Start is called before the first frame update
+
     void Start()
     {
         maxHp = playerScript.Vida;

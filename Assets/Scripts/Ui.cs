@@ -13,7 +13,7 @@ public class Ui : MonoBehaviour
     TextMeshProUGUI nivel;
     public Player player;
     GameObject statVida, statResistencia, statFuerza, statMagia;
-    // Start is called before the first frame update
+
     void Start()
     {
         permitirExp = true;

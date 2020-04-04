@@ -9,7 +9,7 @@ public class Manabar : MonoBehaviour
     float mana, maxMana = 100f;
     float timer, waitTime = 10;
     public Player playerScript;
-    // Start is called before the first frame update
+
     void Start()
     {
         maxMana = 100f + playerScript.Magia;
@@ -21,12 +21,11 @@ public class Manabar : MonoBehaviour
     {
         maxMana = 100f + playerScript.Magia;
         timer += Time.deltaTime;
-            // Comprueba si hemos alcanzado más de 2 segundos.
-            // Restar dos es más preciso con el tiempo que restablecer a cero.
+
             if (timer > waitTime)
             {
                 mana += 5;
-                // Eliminar los 2 segundos grabados.
+
                 timer = timer - waitTime;    
             }
         
