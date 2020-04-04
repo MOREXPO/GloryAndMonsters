@@ -40,3 +40,5 @@ Desarrolle el ataque magico con espada para que pueda atacar a distancia,ademas 
 *04/04/2020*
 
 Cree un NPC, con el que podras tener dialogos gracias al Script que realice.
+
+
