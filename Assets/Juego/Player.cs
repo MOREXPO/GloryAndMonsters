@@ -48,7 +48,7 @@ public class Player : MonoBehaviour
         rb2d = GetComponent<Rigidbody2D>();
         attackCollider = transform.GetChild(0).GetComponent<CircleCollider2D>();
         attackCollider.enabled = false;
-        Camera.main.GetComponent<MainCamera>().setBound(initialMap);
+        //Camera.main.GetComponent<MainCamera>().setBound(initialMap);
         aura = transform.GetChild(1).GetComponent<Aura>();
     }
 

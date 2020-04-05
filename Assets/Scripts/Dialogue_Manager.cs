@@ -83,4 +83,8 @@ public class Dialogue_Manager : MonoBehaviour
             yield return new WaitForSeconds(typingSpeed);
         }
     }
+
+    public bool IsWithin() {
+        return isWithin;
+    }
 }

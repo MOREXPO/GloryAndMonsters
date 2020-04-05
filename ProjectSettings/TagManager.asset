@@ -10,6 +10,7 @@ TagManager:
   - Cuarto
   - Attack
   - Enemy
+  - Raton
   layers:
   - Default
   - TransparentFX

@@ -9,12 +9,14 @@ public class Warp : MonoBehaviour
 
     public GameObject targetMap;
 
+    public GameObject targetBackground;
+
     bool start = false;
     bool isFadeIn = false;
     float alpha = 0;
     float fadeTime = 1f;
 
-    GameObject area;
+    GameObject area,CamaraPlayer;
     private void Awake()
     {
         Assert.IsNotNull(target);
@@ -22,6 +24,7 @@ public class Warp : MonoBehaviour
         transform.GetChild(0).GetComponent<SpriteRenderer>().enabled = false;
         Assert.IsNotNull(targetMap);
         area = GameObject.FindGameObjectWithTag("Area");
+        CamaraPlayer = GameObject.Find("CM_Player");
     }
     private IEnumerator OnTriggerEnter2D(Collider2D collision)
     {
@@ -34,7 +37,7 @@ public class Warp : MonoBehaviour
             if (collision.tag == "Player")
             {
                 collision.transform.position = target.transform.GetChild(0).transform.position;
-                Camera.main.GetComponent<MainCamera>().setBound(targetMap);
+                CamaraPlayer.GetComponent<MainCamera>().setBound(targetBackground);
             }
             FadeOut();
             collision.GetComponent<Animator>().enabled = true;
