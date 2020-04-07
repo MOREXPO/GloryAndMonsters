@@ -46,6 +46,8 @@ Cree un NPC, con el que podras tener dialogos gracias al Script que realice.
 
 Modifique las camaras y el Script de la camara para que funcione mediante cinemachine,ademas meti mas NPCS y les meti animaciones y arregle un poco su Script.Ademas meti un gato que persigue a un raton para rellenar.
 
+## Proyecto subido 10
+*08/04/2020*
 
-
+Tuve que actualizar unity a la versión de 2019 para incorporar unas funcionalidades que necesitaba,gracias a eso realize una cinematica al inicio.Pude desarrollar el comienzo del juego donde te piden el nombre y gracias a la transición pasa al juego.Por ultimo cambie algunos dialogos de los NPCS en el juego.
 

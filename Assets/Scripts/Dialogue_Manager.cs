@@ -12,6 +12,7 @@ public class Dialogue_Manager : MonoBehaviour
 
     public TextMeshProUGUI displayText;
 
+    public GameManager gameManager;
     bool isWithin;
 
     string activeSentence;
@@ -20,9 +21,13 @@ public class Dialogue_Manager : MonoBehaviour
     AudioSource myAudio;
 
     public AudioClip speakSound;
-    void Start()
+
+    private void Awake()
     {
         isWithin = false;
+    }
+    void Start()
+    {
         sentences = new Queue<string>();
         myAudio = GetComponent<AudioSource>();
     }
@@ -30,7 +35,7 @@ public class Dialogue_Manager : MonoBehaviour
     void Update()
     {
         if (isWithin) {
-            if (Input.GetKeyDown(KeyCode.Return)&&displayText.text==activeSentence)
+            if (Input.GetKeyDown(KeyCode.Return)&&displayText.text.Replace(gameManager.Nombre,"{nombre}")==activeSentence)
             {
                 DisplayNextSentence();
             }
@@ -64,7 +69,7 @@ public class Dialogue_Manager : MonoBehaviour
         DisplayNextSentence();
     }
 
-    void DisplayNextSentence() {
+    public void DisplayNextSentence() {
         if (sentences.Count<=0) {
             displayText.text = activeSentence;
             return;
@@ -77,6 +82,7 @@ public class Dialogue_Manager : MonoBehaviour
 
     IEnumerator TypeTheSentence(string sentence) {
         displayText.text = "";
+        sentence = sentence.Replace("{nombre}",gameManager.Nombre);
         foreach (char letter in sentence.ToCharArray()) {
             displayText.text += letter;
             myAudio.PlayOneShot(speakSound);

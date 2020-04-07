@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour {
     public float visionRadius;
     public float attackRadius;
     public float speed;
+    public int level;
 
     // Variables relacionadas con el ataque
     [Tooltip("Prefab de la roca que se disparará")]
@@ -159,15 +160,22 @@ public class Enemy : MonoBehaviour {
     void OnGUI() {
         
         Vector2 pos = Camera.main.WorldToScreenPoint (transform.position);
+        GUI.Box(
+            new Rect(
+                pos.x - 20,
+                Screen.height - pos.y-60,
+                40,
+                24
+            ), "L-" + level
+        );
 
-       
         GUI.Box(
             new Rect(
                 pos.x - 20,                   
                 Screen.height - pos.y + 60,  
                 40,                               
                 24                             
-            ), hp + "/" + maxHp               
+            ),hp + "/" + maxHp               
         );
     }
 
