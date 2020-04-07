@@ -44,7 +44,7 @@ Cree un NPC, con el que podras tener dialogos gracias al Script que realice.
 ## Proyecto subido 9
 *06/04/2020*
 
-Modifique las camaras y el Script de la camara para que funcione mediante cinemachine,ademas meti mas NPCS y les meti animaciones y arregle un poco su Script.Ademas meti un gato que persigue a un raton para rellenar.
+Modifique las cámaras y el Script de la cámara para que funcione mediante cinemachine, ademas metí más NPCS y les metí animaciones y arregle un poco su Script.Además metí un gato que persigue a un ratón para rellenar.
 
 ## Proyecto subido 10
 *08/04/2020*
