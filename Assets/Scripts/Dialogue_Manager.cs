@@ -21,6 +21,7 @@ public class Dialogue_Manager : MonoBehaviour
     AudioSource myAudio;
 
     public AudioClip speakSound;
+    public bool isHistory;
 
     private void Awake()
     {
@@ -34,7 +35,7 @@ public class Dialogue_Manager : MonoBehaviour
 
     void Update()
     {
-        if (isWithin) {
+        if (isWithin&&!isHistory) {
             if (Input.GetKeyDown(KeyCode.Return)&&displayText.text.Replace(gameManager.Nombre,"{nombre}")==activeSentence)
             {
                 DisplayNextSentence();

@@ -74,11 +74,11 @@
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\FixDepth.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\Gato.cs" />
     <Compile Include="Assets\Scripts\Healthbar.cs" />
     <Compile Include="Assets\Scripts\MainCamera.cs" />
     <Compile Include="Assets\Scripts\Manabar.cs" />
     <Compile Include="Assets\Scripts\NpcMovement.cs" />
+    <Compile Include="Assets\Scripts\Perseguir.cs" />
     <Compile Include="Assets\Scripts\Raton.cs" />
     <Compile Include="Assets\Scripts\Rock.cs" />
     <Compile Include="Assets\Scripts\Slash.cs" />

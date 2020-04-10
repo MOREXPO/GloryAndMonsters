@@ -17,12 +17,12 @@ public class Slash : MonoBehaviour {
     }
 
     IEnumerator OnTriggerEnter2D (Collider2D col) {
-        if (col.tag == "Object"){ 
+        if (col.tag == "Object") {
             yield return new WaitForSeconds(waitBeforeDestroy);
             Destroy(gameObject);
         } else if (col.tag != "Player" && col.tag != "Attack"){ 
             if (col.tag == "Enemy") col.SendMessage("AtaqueMagico");
-            Destroy(gameObject);
+            if(col.tag!="Background")Destroy(gameObject);
         }
     }
 

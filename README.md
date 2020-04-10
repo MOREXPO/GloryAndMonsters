@@ -51,3 +51,9 @@ Modifique las cámaras y el Script de la cámara para que funcione mediante cine
 
 Tuve que actualizar unity a la versión de 2019 para incorporar unas funcionalidades que necesitaba,gracias a eso realize una cinematica al inicio.Pude desarrollar el comienzo del juego donde te piden el nombre y gracias a la transición pasa al juego.Por ultimo cambie algunos dialogos de los NPCS en el juego.
 
+## Proyecto subido 11
+*10/04/2020*
+
+Cree el escenario2, y algunos NPCS en él.Además arregle un error que tenia cuando hacia el ataque mágico.
+
+

@@ -11,6 +11,9 @@ TagManager:
   - Attack
   - Enemy
   - Raton
+  - Entrada del pueblo
+  - Explorador
+  - Background
   layers:
   - Default
   - TransparentFX
