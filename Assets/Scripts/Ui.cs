@@ -41,7 +41,7 @@ public class Ui : MonoBehaviour
 
     void Update()
     {
-        if (exp >= 100)
+        if (exp >= maxExp)
         {
             if (SubirStat())
             {
@@ -53,6 +53,7 @@ public class Ui : MonoBehaviour
                 statResistencia.transform.GetChild(0).GetComponent<TextMeshProUGUI>().SetText("{0}", player.Resistencia);
                 statFuerza.transform.GetChild(0).GetComponent<TextMeshProUGUI>().SetText("{0}", player.Fuerza);
                 statMagia.transform.GetChild(0).GetComponent<TextMeshProUGUI>().SetText("{0}", player.Magia);
+                maxExp += 20;
             }
             else {
                 statVida.transform.GetChild(3).GetComponent<TextMeshProUGUI>().enabled = true;
@@ -60,7 +61,7 @@ public class Ui : MonoBehaviour
                 statFuerza.transform.GetChild(3).GetComponent<TextMeshProUGUI>().enabled = true;
                 statMagia.transform.GetChild(3).GetComponent<TextMeshProUGUI>().enabled = true;
                 imgExp.color = Color.red;
-                imgExp.transform.localScale = new Vector2(100f / maxExp, 1);
+                imgExp.transform.localScale = new Vector2(maxExp / maxExp, 1);
                 permitirExp = false;
             }
 

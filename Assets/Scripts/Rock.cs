@@ -11,7 +11,6 @@ public class Rock : MonoBehaviour {
     Rigidbody2D rb2d;    // Recuperamos el componente de cuerpo rígido
     Vector3 target, dir; // Vectores para almacenar el objetivo y su dirección
     private GameObject healthbar;//Recuperamos la barra de vida
-
     void Start () {
         player = GameObject.FindGameObjectWithTag("Player");
         rb2d = GetComponent<Rigidbody2D>();
@@ -35,7 +34,7 @@ public class Rock : MonoBehaviour {
         if (col.transform.tag == "Player" || col.transform.tag == "Attack"){
             Destroy(gameObject);
             if (col.transform.tag == "Player") {
-                healthbar.SendMessage("TakeDamage",15);
+                healthbar.SendMessage("TakeDamage",20);
             }
         }
     }

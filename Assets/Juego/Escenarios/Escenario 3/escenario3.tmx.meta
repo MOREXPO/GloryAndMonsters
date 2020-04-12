@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 52ca474a04d78ae49a2eec134e4fbe22
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
+  errors: []
+  warnings: []
+  missingSortingLayers: []
+  missingLayers: []
+  pixelsPerUnit: 16
+  edgesPerEllipse: 32
+  animationFramerate: 1
+  tilesAsObjects: 0
+  isIsometric: 0
+  customImporterClassName: 
+  internalTilesets: []

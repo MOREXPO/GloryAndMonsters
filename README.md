@@ -56,4 +56,7 @@ Tuve que actualizar unity a la versión de 2019 para incorporar unas funcionalid
 
 Cree el escenario2, y algunos NPCS en él.Además arregle un error que tenia cuando hacia el ataque mágico.
 
+## Proyecto subido 12
+*12/04/2020*
 
+Cree el escenario3, y le incluí troncogros.

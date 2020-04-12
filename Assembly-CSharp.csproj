@@ -71,10 +71,12 @@
     <Compile Include="Assets\Scripts\Destroyable.cs" />
     <Compile Include="Assets\Scripts\Dialogue.cs" />
     <Compile Include="Assets\Scripts\Dialogue_Manager.cs" />
-    <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Enemy_Goblin.cs" />
+    <Compile Include="Assets\Scripts\Enemy_Troncogro.cs" />
     <Compile Include="Assets\Scripts\FixDepth.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Healthbar.cs" />
+    <Compile Include="Assets\Scripts\ItemVida.cs" />
     <Compile Include="Assets\Scripts\MainCamera.cs" />
     <Compile Include="Assets\Scripts\Manabar.cs" />
     <Compile Include="Assets\Scripts\NpcMovement.cs" />

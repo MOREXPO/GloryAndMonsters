@@ -31,4 +31,8 @@ public class Healthbar : MonoBehaviour
     public void TakeDamage(float amount) {
         hp = Mathf.Clamp(hp+playerScript.Resistencia-amount,0f,maxHp);
     }
+
+    public void Curar(float cura) {
+        hp = Mathf.Clamp(hp+cura,0f,maxHp);
+    }
 }
