@@ -60,3 +60,8 @@ Cree el escenario2, y algunos NPCS en él.Además arregle un error que tenia cua
 *12/04/2020*
 
 Cree el escenario3, y le incluí troncogros.
+
+## Proyecto subido 13
+*20/04/2020*
+
+Añadí goblins al escenario3,ademas cree el escenario 4 donde añadí muchos troncogros y goblins y una climática una vez cojas la reliquia, y cree el escenario 5 donde tendrá 3 golems.
